@@ -5,7 +5,7 @@
 
 Este repositorio contiene el desarrollo computacional de un proyecto de investigación académica cuyo objetivo es analizar la evolución del crédito bancario en Ecuador durante el período 2005–2025, integrando información de operaciones crediticias por entidad financiera con indicadores financieros y macroeconómicos.
 
-El proyecto consolida bases de datos históricas de gran volumen, realiza análisis descriptivos y correlacionales, y construye modelos econométricos de series temporales (ARIMA/ARIMAX/SARIMAX) para evaluar la relación entre el crédito y variables exógenas, así como para generar pronósticos de corto y mediano plazo.
+El proyecto consolida bases de datos históricas de gran volumen, realiza análisis descriptivos y correlacionales, y construye modelos econométricos de series temporales ARIMAX para evaluar la relación entre el crédito y variables exógenas, así como para generar pronósticos de corto y mediano plazo.
 
 ## 2. Objetivos
 
@@ -17,7 +17,7 @@ Analizar la dinámica del crédito bancario ecuatoriano y su relación con indic
 - Filtrar y analizar las entidades bancarias privadas de mayor relevancia.
 - Integrar indicadores financieros y macroeconómicos al análisis del crédito.
 - Evaluar correlaciones y relaciones estadísticas entre variables.
-- Estimar modelos ARIMA, ARIMAX y SARIMAX.
+- Estimar modelos ARIMAX.
 - Generar pronósticos anuales del crédito bancario.
 - Garantizar reproducibilidad completa de los resultados.
 
@@ -38,7 +38,7 @@ Analizar la dinámica del crédito bancario ecuatoriano y su relación con indic
 1. **Preprocesamiento**: carga, limpieza, estandarización y agregación anual de datos.
 2. **Análisis descriptivo**: tendencias del crédito por año y entidad.
 3. **Correlación**: análisis no paramétrico (Kendall).
-4. **Modelado**: ARIMA/ARIMAX/SARIMAX con variables exógenas.
+4. **Modelado**: ARIMAX con variables exógenas.
 5. **Validación**: pruebas de estacionariedad, diagnóstico de residuos y métricas de error.
 6. **Pronóstico**: proyecciones anuales con intervalos de confianza.
 
@@ -46,7 +46,7 @@ Analizar la dinámica del crédito bancario ecuatoriano y su relación con indic
 
 - Base consolidada sin nulos en variables clave.
 - Evidencia de relación entre crédito e indicadores macroeconómicos.
-- Models ARIMAX/SARIMAX con mejor ajuste que modelos univariados.
+- Models ARIMAX con mejor ajuste que modelos univariados.
 - Pronósticos anuales con intervalos de confianza al 95%.
 
 ## 6. Reproducibilidad
